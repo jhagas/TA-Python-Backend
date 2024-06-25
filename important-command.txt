@@ -1,0 +1,21 @@
+# On Windows
+# Install virtualenv
+pip install virtualenv
+
+# Create Virtual Environment
+python -m venv TA-flask
+
+# Activate Virtual Environment (PowerShell)
+TA-flask/Scripts/Activate.ps1
+
+# Creating requirements.txt
+pip freeze > requirements.txt
+
+# Installing Dependencies (Libraries)
+pip install -r requirements.txt
+
+# Deactivate Virtual Environment (PowerShell)
+deactivate
+
+# Libraries Needed
+pip install flask
