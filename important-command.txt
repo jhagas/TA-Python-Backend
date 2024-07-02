@@ -5,8 +5,8 @@ pip install virtualenv
 # Create Virtual Environment
 python -m venv TA-flask
 
-# Activate Virtual Environment (PowerShell)
-TA-flask/Scripts/Activate.ps1
+# Activate Virtual Environment (Bash)
+source TA-flask/bin/activate
 
 # Creating requirements.txt
 pip freeze > requirements.txt
@@ -19,3 +19,5 @@ deactivate
 
 # Libraries Needed
 pip install flask
+
+# sudo apt install ffmpeg
